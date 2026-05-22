@@ -66,10 +66,27 @@ ul {
 .courses .course {
     width: calc((100% - 96px) / 4);
 }
+
 .course img {
     width: 100%;
 }
-.courses .row{
+
+.courses .row {
     gap: 32px;
 }
-@media screen
+
+@media screen and (min-width:0) and (max-width:766px) {
+    .courses .course {
+        width: calc((100% - 64px) / 3);
+    }
+
+}
+
+@media screen and (min-width:0) and (max-width:574px) {
+    .courses .course {
+        width: calc((100% - 32px) / 2);
+    }
+
+}
+
+/* End courses */
