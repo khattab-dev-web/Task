@@ -53,10 +53,23 @@ ul {
     }
 }
 
-@media screen and (min-width:0) and (max-width:795px) {
+@media screen and (min-width:0) and (max-width:818px) {
     .Lastlogo {
         display: none;
     }
 }
 
 /* *End header* */
+
+/* start courses */
+
+.courses .course {
+    width: calc((100% - 96px) / 4);
+}
+.course img {
+    width: 100%;
+}
+.courses .row{
+    gap: 32px;
+}
+@media screen
